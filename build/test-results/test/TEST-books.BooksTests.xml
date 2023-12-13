@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="books.BooksTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-12-12T12:57:21" hostname="DBC-001143.local" time="3.363">
+  <properties/>
+  <testcase name="consultarBookPorISBN()" classname="books.BooksTests" time="1.205"/>
+  <testcase name="cadastrarBook()" classname="books.BooksTests" time="0.666"/>
+  <testcase name="alterarBook()" classname="books.BooksTests" time="0.754"/>
+  <testcase name="deletarBook()" classname="books.BooksTests" time="0.733"/>
+  <system-out><![CDATA[HTTP/1.1 201 Created
+Server: nginx/1.17.10 (Ubuntu)
+Date: Tue, 12 Dec 2023 12:57:20 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 83
+Connection: keep-alive
+X-Powered-By: Express
+ETag: W/"53-lJuGu94AtPS5Zu5KO1Si2tzh6B4"
+
+{
+    "userID": "5b4d0e53-70b7-4448-9b66-14066ee04320",
+    "username": "Zachariah",
+    "books": [
+        
+    ]
+}
+HTTP/1.1 200 OK
+Server: nginx/1.17.10 (Ubuntu)
+Date: Tue, 12 Dec 2023 12:57:21 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 277
+Connection: keep-alive
+X-Powered-By: Express
+ETag: W/"115-1wnddxfjvovSzlp3l6lemJcADa8"
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6IlphY2hhcmlhaCIsInBhc3N3b3JkIjoiU2VuaGFAMTIzNCIsImlhdCI6MTcwMjM4NTg0MX0.smoPD3Lsj9jLDCOGyBTgt7Mu_2-7y6AOyXgVphq4mIc",
+    "expires": "2023-12-19T12:57:21.328Z",
+    "status": "Success",
+    "result": "User authorized successfully."
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
